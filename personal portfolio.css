@@ -1,0 +1,63 @@
+body{font-family: 'Fira Sans', sans-serif; background-color: #C0C0C0 ;}
+#navbar{ width: 100%; background-color: #808080; height: 65px;  position: fixed; top: 0; left: 0;}
+.ulo{display: flex; justify-content: flex-end; list-style: none;  align-items: center;   }
+.navlink{ margin-right: 45px; font-size: 25px; text-decoration: none;  color: black; font-weight: 900;  }
+
+#h1{font-size:45px; padding-top: }
+#p{font-size:25px; font-weight: bolder;}
+#welcome-section {margin-top: 65px; height: 100vh;  display:flex; justify-content: flex-end; align-items: center; text-align: center;
+ background-image: url(https://cdn.pixabay.com/photo/2015/05/04/21/33/tree-753069_1280.jpg); background-repeat: no-repeat; background-position: center; background-size: (height:100%) 
+}
+ #indo{ margin-right: 170px; line-height: 10px; margin-top: 20px;}
+
+ #projects{height: 850px;  text-align: center; border-top: 5px solid; margin: auto; margin-top: 10px;}
+ .row{ display: flex; flex-direction: row; width: 100%; }
+
+.column{ display: flex; flex-direction: column; flex:1;  align-items: center; width: 100%; margin-bottom: 50px; }
+.grid{ margin-top: 50px;  }
+
+.hh{background-color: #808080; height:300px; width: 80%; color: white; font-weight: 400}
+h1{ font-family: 'Alatsi', sans-serif; font-size: 40px; padding-top: 0px; margin-top: 10px; }
+.linktitle{text-decoration: none; color: white;}
+.projects-title{ padding-top: 10px; padding-bottom: 10px; margin-top: 0; }
+.linktitle:hover{ color: #99FFFF;  }
+.hh:hover{background-color:#000099; cursor: hand;}
+#contact{ height: 200px; background-color: #808080;  display: flex; flex-direction: column; justify-content: center; text-align: center; align-items: center; margin-bottom: 0; padding-top: 20px;}
+.contactheader > h2{font-size: 4rem; margin-bottom: 20px; padding-bottom: 0; margin-top: 0}
+.contactheader > p{ font-style: italic; margin-top: 0; padding-top: 0; }
+.contact-details{padding-left: 50px; font-size: 1.7rem ; color: black; text-decoration: none;  transition: transform 0.3s ease-out;}
+.contact-details:hover{ color: blue;}
+.contactlinkdiv{margin-top: 30px; margin-bottom: 30px; flex-wrap: wrap; }
+#copynet{text-align: right; background-color: #808080; margin-top: 0; padding-top: 10px; padding-right: 20px;}
+
+@media(max-width: 700px){
+ .row{ display: block; }
+ #projects{height:100%;}
+.grid{height: 100%}
+#footerdiv{ margin-top: 800px; }
+.contactheader > h2{font-size: 2rem}
+.contact-details{font-size: 20px;}
+.contactheader > p{font-size: 15px}
+#copynet{font-size: 15px; padding-bottom: 10px;}
+h1 {font-size: 2rem;}
+#indo{margin-right: 50px;}
+}
+
+
+.btn:hover > i {
+  transform: translateX(-5px);
+}
+
+.contact-details:hover {
+  transform: translateX(-8px);
+}
+
+.btn> i {
+  margin-left: 10px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+.contact-details {
+ 
+  transition: transform 0.3s ease-out;
+}
